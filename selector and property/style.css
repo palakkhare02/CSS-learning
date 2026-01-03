@@ -1,0 +1,18 @@
+/* element selector */
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Class selector */
+.intro{
+    font-size: 20px;
+    font-style: oblique;
+
+}
+
+/* id selector */
+#headline{
+    color: aquamarine;
+    background-color: rgb(19, 215, 150);
+}
