@@ -1,0 +1,41 @@
+body{
+  height: 1500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.static{
+  background-color: aqua;
+  position: static;
+}
+.relative{
+  background: lightcoral;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.parent{
+  background-color: #eee;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 30px;
+}
+.absolute{
+  background-color: lightgreen;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.Fixed{
+  background-color: gold;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sticky{
+  background-color: violet;
+  position: sticky;
+  top: 0;
+}
