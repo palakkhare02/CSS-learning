@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Types </title>
+  <style>
+    .block{
+      display: block;
+      background-color: lightblue;
+      padding: 10px;
+      margin:5px ;
+    }
+    .inline{
+      display: inline;
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 5px;
+    }
+    .inline-block{
+      display: inline;
+      background-color: lightcoral;
+      margin: 10px;
+      padding: 10px;
+      width: 100%;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Display:Block </h2>
+  <div class="block">Box1 (Block)</div>
+  <div class="block">Box2 (Block)</div>
+  <p>Each block takes full line ,so next move</p>
+
+  <h2>Display Inline</h2>
+  <span class="inline">World1</span>
+  <span class="inline">World2</span>
+  <span class="inline">World3</span>
+  <p>Inline boxes sit side by side</p>
+
+  <h2>Display Inline Block</h2>
+  <div class="inline-block">Box A</div>
+  <div class="inline-block">Box B</div>
+  <div class="inline-block">Box C</div>
+  <p>Inline block boxes sit next to each other but keep width and height like real boxes </p>
+</body>
+
+</html>
